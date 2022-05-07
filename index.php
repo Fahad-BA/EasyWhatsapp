@@ -13,7 +13,7 @@
 .center {
     height: 200px;
     width: 400px;
-
+    font-size: large;
     position: fixed;
     top: 50%;
     left: 50%;
@@ -30,11 +30,15 @@
                 <label for="exampleInputEmail1">Phone Number</label>
                 <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
                     name="number" placeholder="+966 xx xxx xxxx">
-                <small id="emailHelp" class="form-text text-muted">We'll never share this number with anyone else.</small>
+                <small id="emailHelp" class="form-text text-muted">We'll never share this number with anyone.</small>
             </div>
             <button type="submit" class="btn btn-success">Message &nbsp;<i class="fa fa-whatsapp"
                     aria-hidden="true"></i></button>
         </form>
+        <div><label>Share: &nbsp; </label><a href="whatsapp://send?text=Check this service: https://easywa.me" class="btn btn-success"
+data-action="share/whatsapp/share"><i class="fa fa-whatsapp"></i></a> | 
+<a href="https://twitter.com/intent/tweet?text=Check this service: https://easywa.me" class="btn btn-primary"><i class="fa fa-twitter"></i></a></div> 
+<div><label>Contact:&nbsp;</label><a href="mailto:support@easywa.me" class="btn btn-light"><i class="fa fa-at"></i></a></div>
 </div>
 </body>
 
