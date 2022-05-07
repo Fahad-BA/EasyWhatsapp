@@ -1,3 +1,3 @@
 # EasyWhatsapp
-Send a Whatsapp message without saving the number.
-test [Here](http://wa.fhidan.com)
+Send a Whatsapp message without saving the number. <br>
+Test it [Here](http://wa.fhidan.com)
